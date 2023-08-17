@@ -1,0 +1,33 @@
+﻿Dot Product Search
+
+
+* Measures the similarity between two vectors by computing the dot product of the two vectors. 
+* The dot product measures the angle between the vectors. 
+* If the vectors are pointing in similar directions (i.e., have a small angle between them), the dot product will be large, indicating high similarity. 
+* If the vectors are pointing in dissimilar directions, the dot product will be small, indicating low similarity.
+
+
+Cosine Similarity Search
+
+
+* It measures the angle between two vectors but is more robust to differences in vector magnitudes. 
+* Calculated by taking the dot product of the two vectors and dividing it by the product of their magnitudes. 
+* The resulting value ranges from -1 to 1, where 1 indicates perfect similarity, -1 indicates perfect dissimilarity, and 0 indicates orthogonality (no similarity). 
+* Widely used in information retrieval, text mining, and collaborative filtering applications.
+
+
+FAISS (Facebook AI Similarity Search)
+
+
+* Efficient similarity search library developed by Facebook AI Research. 
+* Designed to perform similarity searches on large-scale datasets with millions or billions of vectors efficiently. 
+* Employs specialized algorithms, such as the Product Quantization (PQ) and Inverted File techniques, to speed up similarity search operations.
+* Commonly used in tasks like image retrieval, text search, and recommendation systems.
+
+
+The choice of similarity metric or library depends on the specific requirements and characteristics of the data and the scale of the similarity search task.
+
+
+* Dot Product Similarity uses the dot product of vectors
+* Cosine Similarity uses the angle between vectors
+* FAISS is a library that provides efficient algorithms for similarity search on large datasets.
