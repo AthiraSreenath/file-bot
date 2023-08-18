@@ -14,7 +14,7 @@ import time
 
 
 
-openai.api_key = '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'
+openai.api_key = ''
 
 prompt = 'Answer the question, do not make up anything.'
 
